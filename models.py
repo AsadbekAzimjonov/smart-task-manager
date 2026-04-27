@@ -29,3 +29,12 @@ class TaskManager:
             if task.title == title:
                 return task
         return None
+
+    def list_tasks(self):
+        if not self.tasks:
+            print("Your task list is empty!")
+        else:
+            print("-" * 20)
+            for task in self.tasks:
+                print(task)  # This uses the __str__ method from your Task class
+            print("-" * 20)
