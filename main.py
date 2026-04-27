@@ -17,15 +17,15 @@ def main():
         if choice == '1':
             title = input("Enter task title: ")
             print(f"Task '{title}' created.")
-            # Logic to add task will go here
+            
 
         elif choice == '2':
             print("Fetching pending tasks...")
-            # Logic to start timer will go here
+
 
         elif choice == '3':
             print("Displaying all tasks...")
-            # Logic to show list will go here
+
 
         elif choice == '4':
             print("Saving data... Goodbye!")
