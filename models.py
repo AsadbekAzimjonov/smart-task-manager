@@ -20,7 +20,6 @@ class TaskManager:
     def __init__(self):
         self.tasks = []
 
-
     def add_task(self, title, description):
         new_task = Task(title, description)
         self.tasks.append(new_task)
